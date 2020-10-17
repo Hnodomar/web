@@ -1,0 +1,67 @@
+.arrayContainer {
+	margin-left: 25%;
+	margin-top: 10%;
+	width: 50%;
+	display: block;
+	border: 1px solid black;
+	position: relative;
+	height: 700px;
+	min-width: 780px;
+}
+
+.VisualiserHeader {
+	width: 100%;
+	height: auto;
+	background-color: lightblue;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+.VisualiserHeader p {
+	margin: auto;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.array-bar {
+	display: inline-block;
+	width: 2px;
+	margin: 0 1px;
+}
+
+.VisualiserButtons {
+	float: right;
+	display: flex;
+	flex-direction: column;
+	max-width: 190px;
+	margin: 10px;
+	margin-left: auto;
+	background-color: antiquewhite;
+	text-align: center;
+}
+
+.VisualiserButtons button {
+	margin: 10px;
+}
+
+.VisualiserBars {
+	width: 80%;
+	position: absolute;
+	bottom: 0;
+}
+
+.StatusWindow {
+	background-color: thistle;
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+	align-items: center;
+	border: 2px solid black;
+}
+
+.StatusWindow p {
+	text-align: center;
+	font-size: 16px;
+	
+}

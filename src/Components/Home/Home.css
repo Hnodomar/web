@@ -1,0 +1,58 @@
+:root {
+    --tan-calc: 0.8816;
+    --content-width: 150px;
+    --skew-padding: calc(var(--content-width) * var(--tan-calc));
+}
+/* Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Roboto", Georgia;
+    background-color: #F8F8FF;
+    z-index: 1;
+}
+/* Global Styles End */
+
+/* Footer */
+footer {
+    position: relative;
+    bottom: -500px;
+    margin: 20px;
+    height: 100px;
+}
+footer h4 {
+    position: absolute;
+    bottom: 0;
+}
+/* Footer End */
+/* MEDIA RULES */
+
+@media only screen and (max-width: 900px) {
+    .caption {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .intro-text {
+        width: 760px;
+    }
+    #title {
+        font-size: 4.5rem;
+    }
+    .big-container {
+        width: 760px;
+    }
+}
+
+
+@media only screen and (max-width: 2400px) {
+    .contentreact {
+        width: 80%;
+    }
+    
+    .contentmisc {
+        width: 80%;
+    }
+}

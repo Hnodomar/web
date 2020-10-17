@@ -1,0 +1,33 @@
+/* Main */
+
+.main-container {
+    max-width: 70em;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+    font-family: "Roboto";
+}
+
+#title {
+    margin: 50px;
+    font-size: 5em;
+    text-align: center;
+}
+#first-word {
+    display: block;
+    margin-right: 1.6em;
+}
+#second-word {
+    margin-left: 1.6em;
+}
+
+.intro-text {
+    width: 60em;
+    margin: auto;
+}
+
+.intro-text p {
+    text-align: justify;
+}
+
+/* Main End */
